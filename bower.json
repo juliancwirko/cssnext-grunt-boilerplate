@@ -1,0 +1,7 @@
+{
+  "name": "cssnext-grunt-boilerplate",
+  "dependencies": {
+    "jquery": "~2.2.2",
+    "normalize-css": "~4.0.0"
+  }
+}

@@ -1,0 +1,42 @@
+@import 'imports/_settings';
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    & :--headings {
+        margin-top: 0;
+    }
+}
+
+.header-title {
+    color: var(--color-main-dark);
+    & .small {
+        font-size: calc(var(--base-font) * 0.9px);
+    }
+}
+
+@media (--viewport-sm) {
+    .header-title {
+        color: var(--color-main-contrast);
+    }
+}
+
+.images {
+    & .img-item {
+        width: calc(33.333333333% - 30px);
+        text-align: center;
+        float: left;
+        margin-left: 15px;
+        margin-right: 15px;
+        &:matches(:first-child, .blur) {
+            filter: blur(2px);
+        }
+        &:matches(:last-child, .sepia) {
+            filter: sepia(.8);
+        }
+    }
+    & img {
+        width: auto;
+        max-width: 100%;
+    }
+}

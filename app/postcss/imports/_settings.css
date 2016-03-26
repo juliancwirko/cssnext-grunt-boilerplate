@@ -1,0 +1,17 @@
+:root {
+    /* color variables */
+    --color-main-light: #fff;
+    --color-main-dark: #000;
+    --color-main-contrast: #bada55;
+    /* font sizes */
+    --base-font: 16;
+}
+
+/* media queries */
+@custom-media --viewport-sm (width <= 640px);
+@custom-media --viewport-md (width > 640px) and (width <= 1200px);
+@custom-media --viewport-lg (width > 1200px) and (width <= 1440px);
+@custom-media --viewport-xlg (width > 1440px) and (width <= 1920px);
+@custom-media --viewport-xxlg (width > 1920px);
+
+@custom-selector :--headings h1, h2, h3, h4, h5, h6;
