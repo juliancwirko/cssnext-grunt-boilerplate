@@ -5,8 +5,8 @@
 You need git, bower, npm installed
 
 ```bash
-$ git clone https://github.com/juliancwirko/s-grid-grunt.git
-$ cd s-grid-grunt
+$ git clone https://github.com/juliancwirko/cssnext-grunt-boilerplate.git
+$ cd cssnext-grunt-boilerplate
 $ rm -rf .git
 $ npm run install-all (or `npm install` and `bower install`)
 $ npm start
