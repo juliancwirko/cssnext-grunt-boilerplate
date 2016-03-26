@@ -49,6 +49,8 @@ You need to have a basic knowledge about [PostCSS](http://postcss.org/) and [Han
 
 You can work in `app/postcss`, `app/templates` folders. With `.hbs` and special PostCSS `.css` files. There will be `.html` and `app/css/*.css` files created automatically. You can run server with BrowserSync by `npm start`. It will host the files from `app` folder (dev version). After you are ready you can run `npm run build`. It will prepare your files and copy them to `dist` folder. If you want to run server with BrowserSync from `dist` folder run `npm run server-dist`.
 
+**You can find some examples in `app/postcss` and `app/templates` folders.**
+
 ### Tasks
 
 Build and watch http://localhost:3000 with BrowserSync (ui on port 3001) from 'app' folder:
